@@ -1,0 +1,26 @@
+#antidepressantClinicalHeader {
+  font-size: 1.5rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+#antidepressant-clinical {
+  margin-top: 1rem;
+}
+
+.css-tgh5dz-MuiTableCell-root, .css-9zlzxu {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+@media screen and (max-width: 900px) {
+  .responsive-table { 
+    max-width: 90%; 
+    overflow-wrap: break-word;
+  }
+
+ 
+  .headerCell
+  {
+    max-width: 25px;
+    overflow-wrap: normal;
+  }
+}

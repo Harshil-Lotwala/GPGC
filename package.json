@@ -1,0 +1,27 @@
+{
+  "name": "gpgc",
+  "version": "1.0.0",
+  "description": "Gpgc Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev:install": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "db:reset": "cd backend && npm run db:drop && npm run db:create && npm run db:migrate:up && npm run db:seed:up"
+  },
+  "author": "CSCI2691/3691/4691 GPGC",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@mui/material": "^5.15.7",
+    "@mui/x-charts": "^6.19.8",
+    "chart.js": "^4.4.2",
+    "date-fns": "^3.6.0",
+    "react-chartjs-2": "^5.2.0"
+  }
+}

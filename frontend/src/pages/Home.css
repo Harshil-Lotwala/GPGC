@@ -1,0 +1,245 @@
+.main-container {
+    overflow: auto;
+    margin-top: 1rem;
+    margin-bottom: 50px;
+    top: 64px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+.main-footer {
+
+  position: relative !important ; /* Rc: Stick the footer to the bottom */
+  
+} 
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container h2,
+.header-container h4 {
+  margin: 0;
+}
+
+.MuiContainer-root.main-container {
+    width: 95vw !important;
+}
+
+.css-16vq84g-MuiPaper-root-MuiCard-root {
+    box-shadow: none !important;
+}
+
+.css-o9glxo, .css-85ufia {
+    font-family: "Work Sans", sans-serif !important;
+}
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  position: relative !important;
+}
+
+a {
+    color: #000;
+}
+
+
+
+.MuiButton-root.external-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff !important;
+  border: 1px solid #CBCBCB;
+  transition: background-color 0.2s ease;
+}
+
+.MuiButton-root.external-link:hover {
+  background-color: #ccc;
+}
+
+.MuiButton-root.external-link img {
+  display: block;
+  width: auto;
+  height: 20px; /* Adjust according to your image's aspect ratio */
+}
+
+.MuiButton-root.external-linkBig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff !important;
+  border: 1px solid #CBCBCB;
+  transition: background-color 0.2s ease;
+}
+
+.MuiButton-root.external-linkBig:hover {
+  background-color: #ccc;
+}
+
+.MuiButton-root.external-linkBig img {
+  display: block;
+  width: auto;
+  height: 20px; /* Adjust according to your image's aspect ratio */
+}
+.upImage{
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.downImage{
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.downArrow{
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  border-radius: 100%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+
+.upArrow{
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.back-to-top-anchor{
+  z-index: 2;
+}
+
+
+.myStyledButton {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  
+  padding: 15px;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+} 
+
+  
+.myStyledButton:hover {
+    background-color: #96D2B0;
+    color: #fff;
+    font-weight: bold !important;
+    transition: 0.3s;
+}
+ 
+
+.myAccordion {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  .item-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .item-container input[type="checkbox"] {
+    margin-right: 15px;
+  }
+  
+  .square {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;      
+    padding: 40px;
+  }
+
+
+.grid {
+
+  max-width: 95%;
+ 
+}
+
+
+.activeButton {
+  background-color: #96D2B0;  /* Active state color */
+  color: #153500;
+  border-color: #000;
+  border-width: 2px;
+  font-weight: bold !important;
+}
+
+
+.myStyledButton.inactiveButton {
+  background-color: #ffffff; /* Inactive state color */
+}
+
+.css-y8ay40-MuiTableCell-root{
+  z-index: 0 !important;
+  /* z-index pop-up for drug title bar */
+}
+
+@media (max-width:600px) {
+    .main-container {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .MuiCardContent-root {
+        font-size: 160px;
+    }
+
+    .MuiCard-root {
+        width: 100%;
+    }
+
+    .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+      position: relative !important;
+
+    }
+
+    .gray-square {
+      
+      padding: 10px;
+    }
+
+    .myStyledButton {
+      text-align: center;
+    } 
+    /*center aligns the text on mobile view*/
+    
+  
+
+}
